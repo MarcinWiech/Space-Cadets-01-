@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="450.0" style="-fx-background-color: #4688F1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AnagramView_Controller">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="396.0" prefWidth="416.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <JFXButton fx:id="title" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="373.0" ripplerFill="#4688f1" style="-fx-background-color: #4688F1;" text="101 ANAGRAMS FOR &quot;myInput&quot;" textFill="WHITE" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
+            <JFXListView fx:id="listView" layoutY="93.0" prefHeight="305.0" prefWidth="392.0" style="-fx-background-color: white; -fx-border-color: white;" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="61.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
